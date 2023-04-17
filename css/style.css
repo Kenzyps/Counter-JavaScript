@@ -1,0 +1,43 @@
+*{
+    background-color: rgb(35, 31, 31);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: antiquewhite;
+    text-align: center;
+}
+.number{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+}
+
+.buttons{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10em;
+    transform: scale(1.5);
+}
+.plusBtn{
+    color: antiquewhite;
+    background-color: rgb(139, 217, 61);
+    border-color: rgb(0, 170, 0);
+    border-radius: 60%;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.minusBtn{
+    color: antiquewhite;
+    background-color: rgb(255, 80, 80);
+    border-color: rgb(109, 21, 21);
+    cursor: pointer;
+    border-radius: 60%;
+    transition: all 0.2s ease-in-out;
+}
+.minusBtn:hover{
+    transform: scale(1.6);
+}
+.plusBtn:hover{
+    transform: scale(1.6);
+}
